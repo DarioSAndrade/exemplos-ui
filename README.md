@@ -54,4 +54,4 @@ Contribuições são super bem-vindas! Se quiser sugerir um exemplo novo ou melh
 
 Me acompanhe também no GitHub: [DarioSAndrade](https://github.com/DarioSAndrade)
 
-Vamos juntos criar interfaces mais acessíveis e encantadoras! 💜
+Vamos juntos criar interfaces mais fantásticas e acessíveis! 💜
