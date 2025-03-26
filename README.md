@@ -20,18 +20,6 @@ Oferecer recursos didáticos e exemplos reais para ajudar desenvolvedores (princ
 
 ---
 
-## 📂 Estrutura prevista
-
-```
-exemplos-ui/
-├── formulario-contato-acessivel/
-├── formulario-contato-avancado/
-├── menu-responsivo/
-├── layout-com-grid/
-```
-
----
-
 ## 🚀 Comece agora
 
 Você pode clonar o repositório ou baixar os projetos individualmente. Cada exemplo contém um arquivo `README.md` com instruções específicas de uso.
