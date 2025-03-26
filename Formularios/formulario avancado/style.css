@@ -1,0 +1,13 @@
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}

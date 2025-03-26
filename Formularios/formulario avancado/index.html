@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Contato Avançado</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Entre em Contato</h2>
+    <form id="contactForm" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required />
+        <div class="invalid-feedback">Por favor, preencha seu nome.</div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="nome@email.com" required />
+        <div class="invalid-feedback">Insira um e-mail válido.</div>
+      </div>
+      <div class="mb-3">
+        <label for="whatsapp" class="form-label">WhatsApp</label>
+        <input type="tel" class="form-control" id="whatsapp" placeholder="(99) 99999-9999" required />
+        <div class="invalid-feedback">Informe um número de WhatsApp válido.</div>
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Assunto</label>
+        <select class="form-select" id="subject" required>
+          <option value="">Selecione...</option>
+          <option>Dúvida</option>
+          <option>Sugestão</option>
+          <option>Orçamento</option>
+          <option>Outro</option>
+        </select>
+        <div class="invalid-feedback">Escolha um assunto.</div>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+        <div class="invalid-feedback">A mensagem não pode estar vazia.</div>
+      </div>
+      <div class="mb-3">
+        <!-- Simulação de reCAPTCHA -->
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="captcha" required>
+          <label class="form-check-label" for="captcha">
+            Não sou um robô
+          </label>
+          <div class="invalid-feedback">Confirme que você não é um robô.</div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
